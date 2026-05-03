@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
     <!-- header con una imagen de fondo y un botón -->
@@ -106,14 +106,17 @@
       </div>
     </nav>
     <main>
+        <!-- texto breve de presentación -->
       <section class="presentacion">
-        <h3>Sobre nosotros</h3>
+        <h2>Bienvenidos</h2>
         <p>
-          En el Instituto Politécnico Formosa nos dedicamos a brindar formación
-          de calidad, acompañando a nuestros estudiantes en su desarrollo
-          académico y profesional.
+          El Instituto Politécnico Formosa es una institución orientada a la formación técnica y tecnológica de excelencia, comprometida con el desarrollo académico, científico y profesional de sus estudiantes. 
+        </p>
+        <p>
+            A través de una propuesta educativa innovadora, buscamos formar profesionales preparados para afrontar los desafíos del mundo laboral actual, promoviendo la integración entre educación, tecnología y producción.
         </p>
       </section>
+      <!-- sección de carreras, hecha con tarjetas y grillas de bootstrap -->
       <h3 class="subtitulo">Nuestras Carreras</h3>
       <section>
         <div class="container text-center">
@@ -163,6 +166,7 @@
         </div>
       </section>
       <section class="valores container text-center my-5">
+        <!-- segunda sección, se usaron 3 columnas e iconos de bootstrap -->
         <h2 class="mb-5 subtitulo">¿Por qué elegirnos?</h2>
         <div class="row d-flex justify-content-center">
           <div class="col-12 col-md-4">
@@ -195,6 +199,7 @@
             </div>
           </div>
       </section>
+      <!-- sección de noticias recientes, se usaron tarjetas de bootstrap -->
       <h3 class="subtitulo">Noticias Recientes</h3>
       <section>
         <div class="container text-center">
@@ -202,86 +207,73 @@
             <div class="card" style="width: 15rem">
               <img src="assets/img/inicio-de-clases.jpg" class="card-img-top" alt="ciclo lectivo 2026" />
               <div class="card-body">
-                <p class="card-text">
+                <h5 class="card-text">
                  El IPF inició las clases: "Las aulas vuelven a vibrar con el talento de nuestros estudiantes" 
-                </p>
+                </h5>
                 <a href="https://www.formosa.gob.ar/noticia/34132/40/el_ipf_inicio_las_clases_las_aulas_vuelven_a_vibrar_con_el_talento_de_nuestros_estudiantes" class="btn btn-primary">Leer</a>
               </div>
             </div>
             <div class="card" style="width: 15rem">
               <img src="assets/img/comedor.jpg" class="card-img-top" alt="química industrial" />
               <div class="card-body">
-                <p class="card-text">
+                <h5 class="card-text">
                   El comedor del Instituto Politécnico Formosa es modelo provincial y regional.
-                </p>
+                </h5>
                 <a href="https://www.formosa.gob.ar/noticia/34230/1301/el_comedor_del_instituto_politecnico_formosa_es_modelo_provincial_y_regional" class="btn btn-primary">Leer</a>
               </div>
             </div>
             <div class="card" style="width: 15rem">
               <img src="assets/img/diario-norte.webp" class="card-img-top" alt="mecatronica" />
               <div class="card-body">
-                <p class="card-text">
+                <h5 class="card-text">
                   Instituto Politécnico Formosa: "Beneficios para todos los estudiantes"
-                </p>
+                </h5>
                 <a href="https://www.diarionorte.com/320863-instituto-politecnico-formosa-beneficios-para-todos-los-estudiantes" class="btn btn-primary">Leer</a>
               </div>
             </div>
             </div>
           </div>
         </div>
-      <!-- <div
-        id="carouselExampleInterval"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img
-              src="assets/img/entrada-ipf-2.jpeg"
-              class="d-block w-100"
-              alt="..."
-            />
+    </main>
+    <!-- se usaron grillas e iconos de bootstrap para el footer -->
+    <footer class="footer text-light mt-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Instituto Politécnico Formosa</h5>
+            <p>
+              Dirección: Ruta Nac. 81 km. 1190 | Formosa, Argentina<br />
+              Teléfono: +54 9 370 486-0530<br />
+              Email: info@ipf.edu.ar
+            </p>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src="assets/img/ipf-desde-arriba.png"
-              class="d-block w-100"
-              alt="..."
-            />
+          <div class="col-md-4">
+            <h5>Enlaces Rápidos</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="institucional.html">Institucional</a></li>
+              <li><a href="carreras.html">Carreras</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
           </div>
-          <div class="carousel-item">
-            <img
-              src="assets/img/ciclo-lectivo-2026-ipf-2.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
+          <div class="col-md-4">
+            <h5>Nuestras Redes:</h5>
+            <a href="https://www.instagram.com/ipformosa/" target="_blank">
+                <i class="bi bi-instagram redes"></i>
+            </a>
+            <a href="https://www.facebook.com/ipformosa" target="_blank">
+                <i class="bi bi-facebook redes"></i>
+            </a>
+            <a href="mailto:info@ipf.edu.ar">
+                <i class="bi bi-envelope-fill redes"></i>
+            </a>
+          </div>
+          <hr>
+          <div class="text-center">
+            <p class="mb-0">&copy; 2026 Instituto Politécnico Formosa. Todos los derechos reservados.</p>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleInterval"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleInterval"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
-    </main>
-    <footer>
-      <p>
-        &copy; 2026 Instituto Politécnico Formosa. Todos los derechos
-        reservados.
-      </p>
+      </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
