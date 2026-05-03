@@ -1,0 +1,67 @@
+
+body {
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f5f5f5;
+}
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  width: 90%;
+}
+.hero-section {
+    background-image: url('../img/entrada-ipf-3.heic');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 500px;
+    font-family: "Playfair Display", serif;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content {
+    position: relative;
+    z-index: 2;
+}
+.content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.content p {
+    font-size: 1.3rem;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.carousel {
+    object-fit: cover;
+    margin: auto;
+}
+footer {
+    background-color:#1b3f4b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.presentacion {
+    text-align:start;
+    margin: 20px;
+    font-size: 1.5rem;
+    margin-top: 100px;
+    padding: 10px 20px;
+    background-color: #3d924f;
+    border-radius: 15px;
+    border-left: 8px solid #1b3f4b;
+}
+h3 {
+    padding: 5px;
+    margin-top: 5px;
+
+}
