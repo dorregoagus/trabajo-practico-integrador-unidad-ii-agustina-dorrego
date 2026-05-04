@@ -1,13 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instituto Politécnico Formosa</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/institucional.css">
-</head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/institucional.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- header con una imagen de fondo y un botón -->
+    <header
+      class="hero-section d-flex align-items-center justify-content-center text-centers"
+    >
+      <div class="overlay"></div>
+      <div class="content text-white">
+        <h1>Instituto Politécnico Formosa</h1>
+        <p>Formando profesionales del futuro</p>
+        <a href="contacto.html" class="btn btn-light mt-3">Saber más</a>
+      </div>
+    </header>
+    <!-- nav sacado de bootstrap, modificado levemente -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/img/logo-ipf.png"
+            alt="Instituto Politécnico Formosa"
+            width="50"
+            height="45"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="institucional.html">Institucional</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="carreras.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Carreras
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="carreras.html"
+                    >Tecnicatura Superior en Desarrollo de Software
+                    Multiplatafroma</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="carreras.html"
+                    >Tecnicatura Superior en Química Industrial</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="carreras.html"
+                    >Tecnicatura Superior en Mecatrónica</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="carreras.html"
+                    >Tecnicatura Superior en Telecomunicaciones</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="institucional container my-5">
+        <h3>Historia</h3>
+        <p>
+          En el mes de julio del año 2013, cuando comenzó a pensarse en la
+          posibilidad de creación de un Polo Científico, Tecnológico y de
+          Innovación -PCTI- en proximidades de la ciudad de Formosa, comenzó a
+          discutirse la posibilidad de armar trayectos formativos y de
+          capacitación, que se podrían generar en torno a dicho espacio.
+        </p>
+        <p>
+          Luego de concretarse la audiencia pública para el establecimiento del
+          PCTI, se generó una propuesta de formación que iría paralela al
+          desarrollo del Polo; acorde con las necesidades de la provincia y las
+          demandas del mercado. Se advirtió que, las características del
+          proyecto implicaría la creación de un instituto tecnológico, que
+          incluyera diferentes proyectos educativos donde la teoría y la
+          práctica estén en consonancia.
+        </p>
+        <p>
+          Inmediatamente, como parte de los cursos, talleres, espacios de
+          capacitación y carreras, surgió la idea de una tecnicatura superior en
+          Mecatrónica. Esta tecnicatura debería tener un plan de formación que
+          combinara conocimientos de las ciencias básicas, la electrónica,
+          mecánica e informática; de manera que permitiera a los egresados,
+          integrar grupos de trabajo en el área de la producción, el control y
+          la operación de equipos y maquinas industriales.
+        </p>
+        <p>
+          El trabajo posterior, consistió en explorar los planes de estudio de
+          las pocas instituciones que dictaban la propuesta, en nuestro país. Y
+          posibilidades de establecer nexos con especialistas en el tema.
+        </p>
+        <p>
+          Durante el año 2014, con ideas más firmes y definiciones acerca del
+          perfil del egresado que se deseaba; se analizaron diferentes
+          propuestas curriculares de nuestro país y de instituciones
+          extranjeras. Simultáneamente se tomó contacto con egresados de otras
+          universidades y especialistas que pudieran aconsejar sobre la
+          organización de la carrera.
+        </p>
+        <p>
+          La Mecatrónica es un área que integra varias disciplinas como la
+          electrónica, la mecánica, el control automático y las tecnologías de
+          la información. Gracias a esta integración sinérgica, es posible
+          diseñar y construir sistemas electromecánicos inteligentes; además
+          permite resolver problemas industriales, científicos y tecnológicos
+          utilizando un enfoque multidisciplinario que favorece la innovación
+          tecnológica.
+        </p>
+        <p>
+          Hacia fines del año 2016 y durante el año 2017, se trabajó con
+          personal de la Dirección de Educación Técnica de la provincia de
+          Formosa y con el Ingeniero Petzl del INET, para generar los estándares
+          de la Tecnicatura en Mecatrónica. Se sumó al equipo, el formoseño
+          Francisco Pielmann que tenía experiencia en el tema y se había formado
+          en la UTN Córdoba; asesorados por personal del Ministerio de Educación
+          sobre los planes de estudios de carreras técnicas, se fue dando forma
+          a un documento base, que se sometió posteriormente a discusión con las
+          autoridades locales de planeamiento educativo.
+        </p>
+        <p>
+          En este marco, el 31 de enero del año 2018, por decreto provincial N°
+          18/2018 se creó el Instituto Politécnico Formosa, pensado como una
+          institución educativa de avanzada orientada a desarrollar procesos
+          sistemáticos de formación que articulen el estudio y el trabajo, la
+          investigación y la producción; así como la complementación teórico ?
+          práctica. Esta iniciativa respondió a la necesidad de formar técnicos
+          que integren equipos de trabajo, que desarrollen actividades en la
+          producción industrial, la prestación de servicios de alta tecnología y
+          sectores vinculados a la misma.
+        </p>
+        <p>
+          En el seno de este instituto, se organizó la Tecnicatura, cuyas Bases
+          para el Diseño Curricular, se redactaron, luego de varias sesiones de
+          trabajo y reuniones con las autoridades provinciales de varios
+          sectores.
+        </p>
+        <p>
+          La propuesta educativa considera una cursada de tres años y a partir
+          de su graduación, los egresados pueden configurar y supervisar el
+          montaje, funcionamiento y control de equipos, sistemas e instalaciones
+          de automatización mecánica, neumática e hidráulica, eléctrica y
+          electrónica de bienes y servicios industriales, siguiendo los
+          protocolos de calidad y seguridad. Pudiendo además, plantear nuevas
+          configuraciones y optimizaciones de procesos como así también diseñar
+          nuevos sistemas.
+        </p>
+        <p>
+          Todo el proceso de diseño del proyecto, estuvo acompañado de
+          entrevistas a especialistas, a posibles docentes de la carrera y de
+          gestiones para la obtención del equipamiento necesario para
+          implementar la tecnicatura en la ciudad de Formosa.
+        </p>
+        <p>
+          Las clases de la Tecnicatura Superior en Mecatrónica se iniciaron el
+          19 de marzo del 2018, en las instalaciones de la EPET N° 1, con
+          cuarenta alumnos.
+        </p>
+      </section>
+      <section class="my-5 container">
+        <h3>Misión</h3>
+        <h5>El Instituto Politécnico Formosa tiene como finalidad las siguientes metas:</h5>
+        <ul class="mision lista">
+            <li class="lista">
+                <i class="bi bi-check-circle-fill"></i>
+                Brindar educación superior técnica y tecnológica en áreas ocupacionales específicas, promoviendo capacitaciones estratégicos definidos en el modelo Formoseño.
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Formar estudiantes orientando su actuación profesional a los diversos sectores del trabajo y producción, con énfasis en el desarrollo socio-económico local, regional y nacional.
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Brindar formación profesional continua que posibilite el perfeccionamiento, actualización y/o especialización en áreas específicas, atendiendo las características y necesidades propias de los sujetos que portan distintos tipos de certificados y títulos, su dinámica de innovación tecno-productiva
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Fortalecer los procesos de vinculación entre los sectores educativos, científicos y tecnológicos con las necesidades sociales del mundo del trabajo, la producción y el desarrollo local.
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Orientar su oferta formativa en beneficio de la consolidación y fortalecimiento de lossectores productivos, sociales y culturales locales, con base en las potencialidades de desarrollo socio-económico y cultural
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Promover la articulación de la educación secundaria técnico profesional, la educación superior ténico-profesional y la formación profesional, optimizando la infraestructura física, el equipamiento y los equipos formadores
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Constituirse como centro de referencia del desarrollo científico tecnológico aplicado al conocimiento, a la producción y en el espacio de vinculación con las instituciones educativas de la provincia, ofreciendo capacitación yactualización científico-tecnológica a los docentes y estudiantes d dichas instituciones.
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Realizar y estimular la investigación aplicada, la producción cultural, la iniciativa con asociativismo y el desarrollo científico y tecnológico.
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Desarrollar programas de extensión y de divulgación científica y tecnológica.
+            </li>
+            <li>
+                <i class="bi bi-check-circle-fill"></i>
+                Promover la producción y el desarrollo y la transferencia de conocimientos y de tecnologías especialmente de las destinadas al desarrollo local sustentable y la preservación del ambiente
+            </li>
+        </ul>
+        <p>El instituto mantendrá relaciones de coordinación y colaboración con los distintos ministerios y organismos descentralizados y desconcentradas del Gobierno Provincial</p>
+        <p>El Instituto Politécnico Formosa tendrá capacidad de derecho público y privado para realizar todos los actos y contratos necesarios para el logro de los fines antes mencionados.</p>
+    </section>
+    </main>
+    <footer class="footer text-light mt-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Instituto Politécnico Formosa</h5>
+            <p>
+              Dirección: Ruta Nac. 81 km. 1190 | Formosa, Argentina<br />
+              Teléfono: +54 9 370 486-0530<br />
+              Email: info@ipf.edu.ar
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Enlaces Rápidos</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="institucional.html">Institucional</a></li>
+              <li><a href="carreras.html">Carreras</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Nuestras Redes:</h5>
+            <a href="https://www.instagram.com/ipformosa/" target="_blank">
+              <i class="bi bi-instagram redes"></i>
+            </a>
+            <a href="https://www.facebook.com/ipformosa" target="_blank">
+              <i class="bi bi-facebook redes"></i>
+            </a>
+            <a href="mailto:info@ipf.edu.ar">
+              <i class="bi bi-envelope-fill redes"></i>
+            </a>
+          </div>
+          <hr />
+          <div class="text-center">
+            <p class="mb-0">
+              &copy; 2026 Instituto Politécnico Formosa. Todos los derechos
+              reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -2,11 +2,6 @@
 body {
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.carousel-item img {
-  height: 500px;
-  object-fit: cover;
-  width: 90%;
-}
 .hero-section {
     background-image: url('../img/entrada-ipf-3.heic');
     background-size: cover;
@@ -76,7 +71,6 @@ h3 {
     position: relative;
     z-index: 20;
     padding: 50px 20px; 
-    /* background-color: #3d924f; */
     border-radius: 15px;
 }
 i {
